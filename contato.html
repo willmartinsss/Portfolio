@@ -19,7 +19,7 @@
     <header>
 
         <!-- Título do cabeçalho -->
-        <h1>Sobre mim</h1>
+        <h1>Contato</h1>
 
         <!-- Menu de Navegação -->
         <nav>
@@ -32,66 +32,58 @@
     </header>
         
     <!-- Seção Principal da Página (main) -->
-    <main class="main_contato"
+    <main class="main_contato">
 
-        <!-- Seção do Formulário -->
-        <form action="#" method="submit" id="formulario">
+    <!-- Seção do Formulário -->
+    <form action="#" method="submit" id="formulario">
+        <label for="nome">Nome: </label>
+        <input id="name" type="text" name="name" placeholder="Digite seu nome" />
+        <span id="errNome"></span>
 
-            <label for="nome">Nome: </label>
-            <input id="name" type="text" name="name" placeholder="Digite seu nome" />
-            <span id="errNome"></span>
+        <label for="email">Email: </label>
+        <input id="email" type="text" name="email" placeholder="Digite seu email" />
+        <span id="errEmail"></span>
 
-            <label for="email">Email: </label>
-            <input id="email" type="text" name="email" placeholder="Digite seu email" />
-            <span id="errEmail"></span>
+        <label for="subject">Assunto: </label>
+        <input id="subject" type="text" name="subject" placeholder="Digite o assunto da mensagem" />
+        <span id="errSubject"></span>
 
-            <label for="subject">Assunto: </label>
-            <input id="subject" type="text" name="subject" placeholder="Digite o assunto da mensagem" />
-            <span id="errSubject"></span>
+        <label for="message">Mensagem: </label>
+        <textarea id="message" name="message" placeholder="Digite sua mensagem"></textarea>
 
-            <label for="message">Mensagem: </label>
-            <textarea id="message" name="message" placeholder="Digite sua mensagem"></textarea>
+        <button type="submit">Enviar</button>
+    </form>
 
-            <button type="submit">Enviar</button>
-
-        </form>
-
-        <!-- Seção do Google Maps -->
-        <article class="article_mapa">
-          <address>
-            <p>Praia Da barra</p>
-            <p>Salvador</p>
-          </address>
-         <iframe 
-         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2389.131856950348!2d-38.53022298254153!3d-13.010117549848196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716039d12f99a17%3A0xb9f1c65d3b6b7e57!2sPraia%20do%20Farol%20da%20Barra!5e1!3m2!1spt-BR!2sbr!4v1760551544313!5m2!1spt-BR!2sbr" width="400" 
-         height="300" 
-         style="border:0;" 
-         allowfullscreen="" 
-         loading="lazy" 
-         referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </article>
+    <!-- Seção do Google Maps -->
+    <article class="article_mapa">
+        <address>
+        <p>Praia da Barra</p>
+        <p>Salvador</p>
+        </address>
+        <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2389.131856950348!2d-38.53022298254153!3d-13.010117549848196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716039d12f99a17%3A0xb9f1c65d3b6b7e57!2sPraia%20do%20Farol%20da%20Barra!5e1!3m2!1spt-BR!2sbr!4v1760551544313!5m2!1spt-BR!2sbr"
+        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </article>
 
     </main>
-
 
     <!-- Rodapé da Página (footer) -->
     <footer>
 
         <!-- Seção de Contato - Redes Sociais-->
         <section>
-
-            <a href="">
-                <img src="assets/img/linkedin.svg" alt="LinkedIn" />
+            <a href="https://www.linkedin.com/in/william-m-almeida/"
+            target="_blank">
+            <img src="assets/img/linkedin.svg" alt="LinkedIn" />
             </a>
-
-            <a href="">
-                <img src="assets/img/github.svg" alt="Github" />
+            <a href="https://github.com/willmartinsss" target="_blank">
+            <img src="assets/img/github.svg" alt="Github" />
             </a>
-
             <a href="">
                 <img src="assets/img/instagram.svg" alt="Instagram" />
             </a>
-
         </section>
 
 		<h3>

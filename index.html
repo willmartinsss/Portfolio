@@ -1,105 +1,97 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Projeto Portfólio" />
-    <meta name="author" content="William martins">
-    <meta name="keywords" content="HTML, CSS, JavaScript" />
-    <link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
-    <!-- Link para a Folha de Estilo da Página - CSS -->
+    <meta name="description" content="Portfólio de William Martins - Estudante de Engenharia de Software" />
+    <meta name="author" content="William Martins" />
+    <meta name="keywords" content="HTML, CSS, JavaScript, Portfólio, Engenharia de Software" />
+
+    <link rel="icon" type="image/svg+xml" href="./assets/img/favicon.svg" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Meu Perfil</title>
+
+    <title>William Martins | Portfólio</title>
   </head>
   <body>
-    <!-- Cabeçalho da Página(header)-->
+    <!-- Cabeçalho -->
     <header>
-      <!--titulo do cabecalho-->
-      <h1>Sobre Mim</h1>
-
-      <!--Menu de navegação-->
-      <nav>
+      <h1>Home</h1>
+      <nav aria-label="Menu principal">
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="contato.html">Contato</a></li>
         </ul>
       </nav>
     </header>
-    <!--Seção principal da Página(main)-->
+
+    <!-- Conteúdo principal -->
     <main>
-      <!--Seção Sobre-->
+      <!-- Seção Sobre -->
       <section id="about">
-        <h2>Olá, Eu sou o Will :)</h2>
+        <h2>Olá, eu sou o Will :)</h2>
         <article>
-          <!--Foto de perfil-->
           <img
             src="https://media.licdn.com/dms/image/v2/D4E03AQElydPuHdDSfg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1682979178325?e=1763596800&v=beta&t=wE87BOq3qPDqXC-Jxpgx9VO3aFPUolTouD-QQaVbXoM"
-            alt="Foto do criador desse conteúdo"
+            alt="Foto de William Martins"
             id="foto_pf"
           />
 
-          <!--Texto do perfil-->
           <p>
-            Tenho 25 anos e atualmente moro em Salvador, mas sou de Betim,
-            região metropolitana de Belo Horizonte. Sou estudante de Engenharia
-            de Software e escolhi essa área porque sempre fui apaixonado por
-            tecnologia e curiosidades sobre como as coisas funcionam. Desde
-            pequeno eu desmontava computadores (nem sempre conseguia montar de
-            volta ) só pra entender o que tinha dentro. Comecei a estudar
-            programação em 2022, e foi aí que percebi que esse é o caminho que
-            realmente me motiva. Gosto de transformar ideias em algo funcional e
-            de ver um projeto ganhando vida linha por linha. Antes de entrar na
-            área, trabalhei em lugares bem diferentes — como cinema, armazém e
-            atendimento no varejo — e cada uma dessas experiências me ajudou a
-            desenvolver empatia, comunicação e trabalho em equipe. No tempo
-            livre, gosto de jogar com amigos, conhecer lugares novos, conversar
-            e ir à praia. Sou uma pessoa curiosa, comunicativa e sempre disposta
-            a aprender algo novo. E, quem sabe no futuro, quero compartilhar o
-            que aprendo também como professor.
+            Tenho 25 anos e atualmente moro em Salvador, mas sou de Betim, região metropolitana de Belo Horizonte.
+            Sou estudante de Engenharia de Software e escolhi essa área porque sempre fui apaixonado por tecnologia
+            e por entender como as coisas funcionam. Desde pequeno eu desmontava computadores (nem sempre conseguia
+            montar de volta hehe) só pra entender o que tinha dentro.
+          </p>
+
+          <p>
+            Comecei a estudar programação em 2022, e foi aí que percebi que esse é o caminho que realmente me motiva.
+            Gosto de transformar ideias em algo funcional e de ver um projeto ganhando vida linha por linha.
+            Antes de entrar na área, trabalhei em cinema, armazém e varejo — experiências que fortaleceram minha empatia,
+            comunicação e trabalho em equipe.
+          </p>
+
+          <p>
+            No tempo livre, gosto de jogar com amigos, conhecer lugares novos, conversar e ir à praia.
+            Sou curioso, comunicativo e sempre disposto a aprender algo novo. E, no futuro, quero compartilhar o que
+            aprendo como professor.
           </p>
         </article>
       </section>
 
-      <!--Seção video-->
+      <!-- Seção Vídeo -->
       <section id="video">
-        <!--Titulo da seção-->
-        <h2>Meu video Favorito</h2>
-        <article>
-          <!--Video da seção-->
-          <figure>
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/Rj4Yu9Utdw0?si=5BCA4Kg8KLTIbE-n"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
-          </figure>
-        </article>
+        <h2>Meu vídeo favorito</h2>
+        <figure>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/Rj4Yu9Utdw0?si=5BCA4Kg8KLTIbE-n"
+            title="Vídeo favorito do YouTube"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </figure>
       </section>
     </main>
-    <!-- Rodapé da Página (footer) -->
+
+    <!-- Rodapé -->
     <footer>
-      <!-- Seção de Contato - Redes Sociais-->
-      <section>
-        <a href="">
+      <section aria-label="Minhas redes sociais">
+        <a href="https://www.linkedin.com/in/william-almeida-688b7b103/" target="_blank" rel="noopener noreferrer">
           <img src="assets/img/linkedin.svg" alt="LinkedIn" />
         </a>
-        <a href="">
-          <img src="assets/img/github.svg" alt="Github" />
+        <a href="https://github.com/willmartinsss" target="_blank" rel="noopener noreferrer">
+          <img src="assets/img/github.svg" alt="GitHub" />
         </a>
-        <a href="">
+        <a href="https://www.instagram.com/seuusuario/" target="_blank" rel="noopener noreferrer">
           <img src="assets/img/instagram.svg" alt="Instagram" />
         </a>
       </section>
-      <h3>Feito com 🧡 por William Martins - 2025</h3>
+      <h3>Feito com 🧡 por William Martins — 2025</h3>
     </footer>
 
-    <!-- Script JavaScript-->
     <script src="assets/js/script.js"></script>
-
   </body>
 </html>
